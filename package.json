@@ -1,0 +1,50 @@
+{
+  "name": "@tssuite/supply-chain-app",
+  "version": "0.0.1",
+  "description": "Browser demo for @tssuite/supply-chain: visualizes a supply chain with Mermaid",
+  "homepage": "https://github.com/tssuite/supply-chain-app",
+  "bugs": "https://github.com/tssuite/supply-chain-app/issues",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tssuite/supply-chain-app.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "tsc && npx vite build",
+    "preview": "npx vite preview",
+    "test": "pnpm test:unit && pnpm test:e2e && pnpm test:snapshots",
+    "test:unit": "npx vitest run --coverage && pnpm run lint",
+    "test:e2e": "npx playwright test",
+    "test:snapshots": "npx playwright test --update-snapshots",
+    "lint": "npx prettier --write . && npx eslint --fix"
+  },
+  "dependencies": {
+    "@tssuite/supply-chain": "link:../supply-chain",
+    "mermaid": "^11.4.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "@typescript-eslint/eslint-plugin": "^8.60.1",
+    "@typescript-eslint/parser": "^8.60.1",
+    "@vitest/coverage-v8": "^4.1.8",
+    "eslint": "^10.4.1",
+    "eslint-plugin-jsdoc": "^63.0.1",
+    "eslint-plugin-tsdoc": "^0.5.2",
+    "globals": "^17.6.0",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.8.3",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.60.1",
+    "vite": "^8.0.16",
+    "vitest": "^4.1.8",
+    "vitest-dom": "^0.1.1"
+  },
+  "packageManager": "pnpm@11.5.1+sha512.93f7b57422ea7068257235b4c16eb60762eb68e1dc23723199cc739043ea9be2c4143274a399d8c6defa2b1176226d9ca1c4b63482d6200c1a8fbaa78c1d1485"
+}
