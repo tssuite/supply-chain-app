@@ -6,7 +6,6 @@
 
 import { defineConfig } from 'vite';
 
-
 // Standard Vite browser-app config (no library mode).
 // https://vitejs.dev/config/
 export default defineConfig({

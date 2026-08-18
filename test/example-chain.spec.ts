@@ -8,7 +8,6 @@ import { describe, expect, it } from 'vitest';
 
 import { exampleMermaid } from '../src/example-chain.ts';
 
-
 describe('exampleMermaid', () => {
   const mermaid = exampleMermaid();
 

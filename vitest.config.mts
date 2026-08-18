@@ -8,7 +8,6 @@
 
 import { defineConfig } from 'vite';
 
-
 // Vitest runs the unit tests (*.spec.ts) in a jsdom environment.
 // Playwright e2e tests (*.e2e.ts) are handled separately and excluded here.
 // https://vitejs.dev/config/
