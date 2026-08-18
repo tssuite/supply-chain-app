@@ -6,7 +6,6 @@
 
 import { defineConfig, devices } from '@playwright/test';
 
-
 const port = 5173;
 const baseURL = `http://localhost:${port}`;
 

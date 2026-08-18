@@ -4,8 +4,12 @@
 // Use of this source code is governed by terms that can be
 // found in the LICENSE file in the root of this package.
 
-import { NodeBluePrint, Scm, Scope, ScopeBluePrint } from '@tssuite/supply-chain';
-
+import {
+  NodeBluePrint,
+  Scm,
+  Scope,
+  ScopeBluePrint,
+} from '@tssuite/supply-chain';
 
 /**
  * Builds a small example supply chain and returns its Mermaid representation.

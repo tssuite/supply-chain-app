@@ -6,7 +6,6 @@
 
 import { expect, test } from '@playwright/test';
 
-
 test.describe('supply-chain-app', () => {
   test('renders the supply chain as a mermaid diagram', async ({ page }) => {
     await page.goto('/');

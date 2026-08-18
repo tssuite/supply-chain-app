@@ -9,7 +9,6 @@ import mermaid from 'mermaid';
 import { exampleMermaid } from './example-chain.ts';
 import './style.css';
 
-
 const render = async (): Promise<void> => {
   const app = document.querySelector<HTMLDivElement>('#app');
   if (app === null) {
