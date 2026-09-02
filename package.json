@@ -1,6 +1,6 @@
 {
   "name": "@tssuite/supply-chain-app",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Browser demo for @tssuite/supply-chain: visualizes a supply chain with Mermaid",
   "homepage": "https://github.com/tssuite/supply-chain-app",
   "bugs": "https://github.com/tssuite/supply-chain-app/issues",
