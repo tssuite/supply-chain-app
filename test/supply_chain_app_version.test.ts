@@ -12,9 +12,9 @@ import { supplyChainAppVersion } from '../src/supply_chain_app_version';
 
 describe('supply_chain_app_version.ts', () => {
   it('matches the version in package.json', () => {
-    const manifest = JSON.parse(
-      readFileSync('package.json', 'utf8'),
-    ) as { version?: string };
+    const manifest = JSON.parse(readFileSync('package.json', 'utf8')) as {
+      version?: string;
+    };
     expect(manifest.version).toBeTruthy();
 
     const declaration = 'export const supplyChainAppVersion = ';
