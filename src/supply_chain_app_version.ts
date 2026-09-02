@@ -2,4 +2,4 @@
 // Kept in sync by test/supply_chain_app_version.test.ts.
 
 /** The version of the `@tssuite/supply-chain-app` package. */
-export const supplyChainAppVersion = '0.0.2';
+export const supplyChainAppVersion = '0.0.3';
